@@ -1,6 +1,6 @@
 import { UserProps } from "@/interfaces";
 
-const PostCard: React.FC<UserProps> = ({id,
+const UserCard: React.FC<UserProps> = ({id,
   name,
   username,
   email,
@@ -29,4 +29,4 @@ const PostCard: React.FC<UserProps> = ({id,
   );
 };
 
-export default PostCard;
+export default UserCard;
