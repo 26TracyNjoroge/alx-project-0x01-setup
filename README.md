@@ -1,4 +1,4 @@
-# React Architect: Mastering Advanced Structures in Next.js 
+# alx-project-0x01-setup
 
 ## Getting Started
 
