@@ -31,7 +31,7 @@ const UserCard: React.FC<UserProps> = ({
             {website}
           </a>
         </p>
-     
+        posts.map()
       </div>
 
     </div>
