@@ -31,7 +31,13 @@ const UserCard: React.FC<UserProps> = ({
             {website}
           </a>
         </p>
-        posts.map()
+         <div className="grid grid-cols-3 gap-2 ">
+          {
+            posts?.map(({ title, body, userId, id }: PostProps, key: number) => (
+              <PostCard title={title} body={body} userId={userId} id={id} key={key} />
+            ))
+          }
+        </div>
       </div>
 
     </div>
